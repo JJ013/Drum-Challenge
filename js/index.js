@@ -71,5 +71,5 @@ function buttonAnimation(currentKey) {
   var activeButton = document.querySelector("." + currentKey).classList.add("pressed");
   var neutralButton = setTimeout(function() {
     document.querySelector("." + currentKey).classList.remove("pressed");
-  }, 500);
+  }, 100);
 }
